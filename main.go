@@ -1,13 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
-
-}
-
-func MaxInt(a, b int) int {
-    if a >= b {
-        return a
-    }
-
-    return b
+    fmt.Println("Hello world")
 }
